@@ -1,0 +1,30 @@
+{
+  "name": "baps-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@aws-sdk/client-cloudfront": "^3.804.0",
+    "@aws-sdk/client-s3": "^3.804.0",
+    "@aws-sdk/cloudfront-signer": "^3.804.0",
+    "aws-cloudfront-sign": "^3.0.2",
+    "axios": "^1.9.0",
+    "bcryptjs": "^3.0.2",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.14.1",
+    "node-fetch": "^3.3.2",
+    "nodemon": "^3.1.10"
+  }
+}
