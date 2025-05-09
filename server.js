@@ -21,6 +21,7 @@ mongoose.connect(process.env.MONGO_URI, {
   .catch(err => console.error(err));
 
 app.use('/api/auth', authRoutes);
+app.use("/" , console.log("backemd is live"));
 app.use('/api/file',fileRoutes);
 app.use('/api/protected',protectedRoutes);
 
